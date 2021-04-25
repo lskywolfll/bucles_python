@@ -20,8 +20,8 @@ def game(numero):
         distanciaObjetivo(numero, objetivo)
         numero = get_input(
             int, "Elige un número del 1 al 100: ", "un número valido")
-        if numero == objetivo:
-            print("¡Ganaste!")
+            
+    print("¡Ganaste!")
 
 
 def run():
