@@ -9,7 +9,7 @@ def numeroAleatorio():
 def distanciaObjetivo(numero, objetivo):
     if numero < objetivo:
         print("Busca un número más grande")
-    elif numero > objetivo:
+    else:
         print("Busca un número más pequeño")
 
 
