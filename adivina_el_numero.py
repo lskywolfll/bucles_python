@@ -18,15 +18,13 @@ def game(numero):
 
     while numero != objetivo:
         distanciaObjetivo(numero, objetivo)
-        numero = get_input(
-            int, "Elige un número del 1 al 100: ", "un número valido")
-            
+        numero = get_input(int, "Elige un número del 1 al 100: ", "un número valido")
+
     print("¡Ganaste!")
 
 
 def run():
-    numero = get_input(
-        int, "Elige un número del 1 al 100: ", "un número valido")
+    numero = get_input(int, "Elige un número del 1 al 100: ", "un número valido")
     game(numero)
 
 
